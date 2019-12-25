@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    
+}
+html,
+body {
+    margin: 0;
+    max-width: 100%;
+    
+    position: relative;
+    background-color: bisque;
+}
+.container{
+ 
+ overflow-x: hidden;
+} 
+
+.title {
+    max-width: 100%;
+    font-weight: 100;
+    font-size: 3em;
+}
+
+#openingLottie {
+    height: 70vh;
+}
+
+.btn__group {
+    display: flex;
+    margin-top: 5em;
+    justify-content:center;
+    align-items: center;
+    font-family: 'cwTeXYen', sans-serif;
+
+}
+
+.btn{
+    color: #ffffff;
+}
+
+#lottie-start{
+    background-color: #4f4f4f;
+}
+#lottie-pause{
+    background-color: #4f4f4f;
+}
+
+#lottie-stop{
+    background-color: #4f4f4f;
+}
+
+#lottie :hover{
+    background-color: #505050;
+}
